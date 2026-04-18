@@ -95,16 +95,16 @@ A concise, non-redundant rule set for writing clear, efficient, and correct Cali
 **Good**
 
 ```python
-# set b from a
+# set a from b
 a = b;
-# prepare c
+# prepare b
 b = c;
 ```
 
 **Bad**
 
 ```python
-a = b; # set b       # invalid in GPM
+a = b; # set a       # invalid in GPM
 a = b; b = c;        # valid but not permitted by our style
 ```
 
@@ -125,7 +125,7 @@ a = b; b = c;        # valid but not permitted by our style
 13. **Declaration order:** Helpers declared before top-cache variables; within helpers, callees declared before callers (no cycles).
 14. **Semicolons in multi-line programs:** Every top-expression except the last must end with `;`.
 
-## 13) Meta Rules) Meta Rules
+## 13) Meta Rules
 
 1. **Code block style** Always show GPM code in fenced code blocks tagged as `python`.
 
@@ -182,4 +182,5 @@ a = b; b = c;        # valid but not permitted by our style
 - **2025-09-20** — Added Meta Rules; updated terminology to “variable.”
 - **2025-09-21** — Added checklist for valid functions; grouped lint guardrails.
 - **2025-09-21** — Clarified order: helpers before top-cache vars; updated §3, §4.
-
+- **2026-04-17** — Edit typos in examples and transcription errors
+- 

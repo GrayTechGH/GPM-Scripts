@@ -2,7 +2,7 @@
 
 Slug: gpm-rulebook-clean
 
-Version: 2.0.5 Updated: 2025-09-17
+Version: 2.0.6 Updated: 2026-04-17
 
 Status: Draft
 

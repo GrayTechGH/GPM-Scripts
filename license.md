@@ -34,10 +34,22 @@ The following files are derived from the Calibre documentation and should be tre
 
 These derived reference documents are not covered by the 0BSD terms above.
 
+## Mixed-origin reference document
+
+`GPM Agent Reference/GPM Reference Samples.md` contains a mix of:
+
+- examples derived or adapted from the Calibre documentation at
+  <https://manual.calibre-ebook.com/template_lang.html#general-program-mode>
+- original examples written for this repository
+
+Because derived and original material are combined in one document, the file should be treated as **GPL v3** as a whole unless it is later split or explicitly annotated section by section.
+
 ## Other files
 
 Unless a file says otherwise:
 
 - `Custom Scripts/` follows the 0BSD terms above.
-- The two derived reference documents listed above follow GPL v3.
-- Any other repository content should be treated as unlicensed reference material until explicitly licensed.
+- `GPM Agent Reference/GPM Grammar Reference.md` follows GPL v3.
+- `GPM Agent Reference/gpm_function_reference_calibre_8_12.md` follows GPL v3.
+- `GPM Agent Reference/GPM Reference Samples.md` should be treated as GPL v3 because it combines GPL-derived and original examples in one file.
+- Other repository content is not granted the 0BSD license unless explicitly stated.
